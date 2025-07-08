@@ -5,17 +5,22 @@
  ## 需要知道的概念
 
   - 莫比乌斯函数
-    
-    $$ \mu(n) =
-    \begin{cases}
-    1, \quad n=1 \\
-    0, \quad n含有平方因子 \\
-    (-1)^k, \quad n恰有k个不同的质因子
-    \end{cases}
-    $$
+
+$$ \mu(n) =
+\begin{cases}
+1, \quad n=1 \\
+0, \quad n含有平方因子 \\
+(-1)^k, \quad n恰有k个不同的质因子
+\end{cases}
+$$
 
   - 莫比乌斯函数的性质
-
     
+$$ \sum_{d|n} \mu(d) =
+\begin{cases}
+1, \quad n=1 \\
+0, \quad n!=1
+\end{cases}
+$$
 
   - 线性筛求莫比乌斯函数
