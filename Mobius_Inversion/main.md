@@ -14,13 +14,22 @@ $$ \mu(n) =
 \end{cases}
 $$
 
-  - 莫比乌斯函数的性质
+  - 莫比乌斯函数的性质 1
     
 $$ \sum_{d|n} \mu(d) =
 \begin{cases}
 1, \quad n=1 \\
-0, \quad n!=1
+0, \quad n \neq 1
 \end{cases}
 $$
 
+ 那么进一步地，一定有:
+ $[gcd(i,j)==1] = \sum_{d|gcd(i,j)} \mu(d)$
+
+  -  莫比乌斯函数的性质 2
+
+$$ n = \sum_{d|n} \varphi(d)
+$$
+
   - 线性筛求莫比乌斯函数
+
