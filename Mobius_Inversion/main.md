@@ -21,15 +21,29 @@ $$ \sum_{d|n} \mu(d) =
 1, \quad n=1 \\
 0, \quad n \neq 1
 \end{cases}
-$$
+$$ 
 
- 那么进一步地，一定有:
+那么进一步地，一定有:
  $[gcd(i,j)==1] = \sum_{d|gcd(i,j)} \mu(d)$
 
   -  莫比乌斯函数的性质 2
 
-$$ n = \sum_{d|n} \varphi(d)
-$$
+$$ n = \sum_{d|n} \varphi(d) $$
+
+ - 莫比乌斯函数的性质们
+
+   莫比乌斯函数的性质 $1$ 可以写作
+   
+$$1 * \mu = \varepsilon$$
+
+   莫比乌斯函数的性质 $2$ 可以写作
+   
+$$1 * \varphi = id$$
+
+   类似的性质还有：
+
+$$id^k * 1 = \sigma ^ k $$
+$$ \mu * id = \varphi $$
 
   - 线性筛求莫比乌斯函数
 ```cpp
