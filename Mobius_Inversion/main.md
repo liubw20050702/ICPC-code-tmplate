@@ -105,3 +105,5 @@ $$
 g(n) = \sum_{i=1}^n \mu(i) t(i) f\left(\left\lfloor \frac{n}{i} \right\rfloor\right)
 \end{align*}
 $$
+
+## 二：莫比乌斯反演的本质
