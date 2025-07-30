@@ -53,4 +53,4 @@ luogu : [https://www.luogu.com.cn/problem/P4526](https://www.luogu.com.cn/proble
 
 $\displaystyle{\int_0^\infty x^{\frac{a}{x}-x}\mathrm{d}x}$
 
-保留至小数点后$5$位。若积分发散，请输出$\text{orz}$。
+保留至小数点后 $5$ 位。若积分发散，请输出 $\text{orz}$ 。
