@@ -46,11 +46,8 @@ int main()
 }
 ```
 
-luogu : [https://www.luogu.com.cn/problem/P4526](https://www.luogu.com.cn/problem/P4526)
-# P4526 【模板】自适应辛普森法 2
+luogu : [【模板】自适应辛普森法 2](https://www.luogu.com.cn/problem/P4526)
 
-试计算积分
-
-$\displaystyle{\int_0^\infty x^{\frac{a}{x}-x}\mathrm{d}x}$
+对于输入的 $|a| <= 50$ 计算 $\displaystyle{\int_0^\infty x^{\frac{a}{x}-x}\mathrm{d}x}$
 
 保留至小数点后 $5$ 位。若积分发散，请输出 $\text{orz}$ 。
