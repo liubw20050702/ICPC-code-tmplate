@@ -1,6 +1,6 @@
 整体二分模板 https://www.luogu.com.cn/problem/P3834
 
-离线询问，区间求第 &k& 小
+离线询问，区间求第 $k$ 小
 
 ```
 #include <bits/stdc++.h>
