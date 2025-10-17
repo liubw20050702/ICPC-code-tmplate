@@ -823,7 +823,7 @@ g(n) = \sum_{i=1}^n \mu(i) t(i) f\left(\left\lfloor \frac{n}{i} \right\rfloor\ri
 \end{align*}
 $$
 
- - 自适应辛普森积分
+ ## 自适应辛普森积分
 ```cpp
 const db eps = 1e-10;
 db a;
