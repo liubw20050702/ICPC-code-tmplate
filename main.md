@@ -1,4 +1,4 @@
- - 快读
+ ## 快读
 ```cpp
 template <class T>void read(T &x){
     x=0;
@@ -22,7 +22,7 @@ template <class T>void space(T x){
 
 ```
 
- - 主席树
+ ## 主席树
 ```cpp
 const int N = 2e5 + 10;
 const int inf = 1e9 + 10;
@@ -90,7 +90,7 @@ int main() {
 }
 ```
 
- - 费用流
+ ## 费用流
 ```cpp
 class Dinic {
 public:
@@ -177,7 +177,7 @@ int main() {
     return 0;
 }
 ```
- - 树剖 + 线段树
+ ## 树剖 + 线段树
 ```cpp
 const int N=1e5+10;
 int n,m, a[N], b[N], pls[N];
@@ -299,7 +299,7 @@ void slv()
 }
 ```
 
- - 莫队
+ ## 莫队
 ```cpp
 int b[N],n,m,k,siz;
 ll res[N];
@@ -338,7 +338,7 @@ void slv(){
     return;
 }
 ```
- - 倍增求lca
+ ## 倍增求lca
 ```cpp
 const int N=5e5+10;
 const int L=21;
@@ -385,7 +385,7 @@ int main(){
     return 0;
 }
 ```
- - dsu on tree
+ ## dsu on tree
 ```cpp
 const int N = 1e5 + 10;
 multiset<int> st;
@@ -475,7 +475,7 @@ int main()
 	return 0;
 }
 ```
- - Tarjan
+ ## Tarjan
 ```cpp
 const int N=2e4+10;
 vector<int> e[N];
@@ -509,7 +509,7 @@ int main(){
 	return 0;
 }
 ```
- - 平板电视
+ ## 平板电视
 ```cpp
 以下内容摘自lbw博客
 Noip 开放了 pbds 的使用，这个东东可以支持很多奇妙的操作！
@@ -590,7 +590,7 @@ int main(){
 }
 //idea offered by:cym
 ```
- - 整体二分
+ ## 整体二分
 ```cpp
 struct Data{
 	int p, x;
@@ -677,7 +677,8 @@ void slv()
 	return;
 }
 ```
- - 欧拉回路
+ ## 欧拉回路
+ 
 所有点的度均为偶数的前提下，寻找欧拉回路，并把简单环拆分出来。
 
 武汉邀请赛E
@@ -713,12 +714,12 @@ void dfs(int u){
 	}
 }
 ```
- - 莫比乌斯反演
- # 莫比乌斯反演
+ ## 莫比乌斯反演
+ ### 莫比乌斯反演
 
 好久之前学习的内容了，但是似乎一直没有完全掌握，退役之前写一个博客。
 
- ## 零：需要知道的概念
+ #### 零：需要知道的概念
 
   - 莫比乌斯函数
 
@@ -790,7 +791,7 @@ void init(int n)
 }
 ```
 
-## 一：莫比乌斯变换
+#### 一：莫比乌斯变换
 
 1. 形式一（常见形式）
 
@@ -851,7 +852,7 @@ int main()
 	return 0;
 }
 ```
- - Graham凸包
+ ## Graham凸包
 ```cpp
 template<class T>
 class point {
@@ -970,7 +971,7 @@ int main()
 	return 0;
 }
 ```
- - 半平面交
+ ## 半平面交
 ```cpp
 const db eps = 1e-7;
 
@@ -1172,7 +1173,7 @@ int main()
 	return 0;
 }
 ```
- - 计算几何板子合集
+ ## 计算几何板子合集
 ```cpp
 #include<bits/stdc++.h>
 #define ll long long
